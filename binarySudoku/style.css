@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 120%;
+}
+
+.zero {
+    background-color: white;
+}
+
+.one {
+    background-color: #333333;
+}
+
+#board {
+margin-top: 20px;
+border-collapse: collapse;
+background-color: #999;
+}
+
+#board td {
+width: 150px;
+height: 150px;
+border: 2px solid black;
+cursor: pointer;
+}
+
+#buttons {
+margin-top: 15px;
+}
+
+#instructions {
+border: dashed 2px black;
+margin-top: 15px;
+padding: 10px;
+}
+
+#message {
+font-size: 150%;
+}
